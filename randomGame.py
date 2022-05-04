@@ -13,10 +13,10 @@ while True:
         elif guess == x and guesses != 0:
             print(f"Congratualtions your got it!!!! It only took {guesses} attempts!!")
             break
-        elif guess >= x:
+        elif guess > x:
             print("Not quite the number is smaller.")
             guesses += 1
-        elif guess <= x:
+        elif guess < x:
             print("Not quite the number is larger.")
             guesses += 1
         else:
