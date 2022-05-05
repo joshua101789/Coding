@@ -63,11 +63,15 @@ while True:
                 print(f"Score = My score: {computerScore} / Your Score: {personScore} / Ties: {tie}")
                 break
         elif person == 2 and computer == 1:
+            print("You win!")
+            personScore += 1
             repeat = input("Play again? Y/N")
             if repeat != "y":
                 print(f"Score = My score: {computerScore} / Your Score: {personScore} / Ties: {tie}")
                 break
         elif person == 3 and computer == 2:
+            print("You win!")
+            personScore += 1
             repeat = input("Play again? Y/N")
             if repeat != "y":
                 print(f"Score = My score: {computerScore} / Your Score: {personScore} / Ties: {tie}")
